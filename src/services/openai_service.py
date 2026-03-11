@@ -1,6 +1,7 @@
 from openai import OpenAI
 from helpers.config import get_settings, Settings
 from services.schemes.openai_schemas import Imagescheme 
+from fastapi import HTTPException
 
 AppCofig: Settings = get_settings()
 
@@ -45,7 +46,7 @@ class OpenaiService:
             return response_scheme.image_description, response_scheme.image_category, response_scheme.image_summary_3_words
 
         except Exception as e:
-            return {"error": str(e)}
+            raise HTTPException(status_code=500, detail=str(e))
         
         
         
