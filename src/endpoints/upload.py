@@ -20,7 +20,7 @@ upload = APIRouter(
 async def upload_file(file: UploadFile = File(...),
                     app_settings:Settings = Depends(get_settings)):
 
-    valid_status, valid_message =  ValidateData.validate_upload_file(file=file)
+    valid_status, valid_message =  ValidateData.validate_upload_file(file=file, AppCofig= app_settings)
 
     # for tracing: enable the below line to print out the values
     #return file._in_memory
