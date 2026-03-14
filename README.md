@@ -115,3 +115,11 @@ Upload an image to analyze and organize.
 - Subfolders are created automatically if they don't exist
 
 ---
+ 
+## 👤 Author
+ 
+**Ahmad Al-Jolani**
+- GitHub: [@ahmad99jolani](https://github.com/ahmad99jolani)
+- LinkedIn: [ahmad-al-jolani](https://linkedin.com/in/ahmad-al-jolani)
+ 
+---
