@@ -2,7 +2,7 @@ from fastapi import APIRouter, UploadFile, status, Request, Depends, File
 from fastapi.responses import JSONResponse
 from helpers.config import get_settings, Settings
 from helpers import ImageUtils, FileUtils
-from controller import ValidateData
+from controllers import ValidateData
 from services import OpenaiService
 import os
 import logging
