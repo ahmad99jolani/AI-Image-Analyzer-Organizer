@@ -32,7 +32,7 @@ uploads/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/ahmad-al-jolani/ai-image-analyzer-organizer.git
+git clone https://github.com/ahmad99jolani/AI-Image-Analyzer-Organizer.git
 cd ai-image-analyzer-organizer
 ```
 
