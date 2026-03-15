@@ -22,7 +22,7 @@ async def upload_file(file: UploadFile = File(...),
 
     valid_status, valid_message =  ValidateData.validate_upload_file(file=file, AppCofig= app_settings)
 
-    # for tracing: enable the below line to print out the values
+    # for tracing: enable below line to print out the values
     #return file._in_memory
     #return file.content_type, file.size, valid_status, valid_message
 
@@ -65,17 +65,6 @@ async def upload_file(file: UploadFile = File(...),
     )
 
 
-
-    #return image_base64
-
-    # else:
-    #     return JSONResponse(
-    #         status_code=200,
-    #         content={
-    #             "message": valid_message
-    #         }
-    #     )
-    
 
     
 

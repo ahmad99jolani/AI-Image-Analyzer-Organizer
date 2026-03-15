@@ -35,7 +35,6 @@ class OpenaiService:
                 }
             ],
             response_format = Imagescheme,
-            #text_format=Imagescheme,
             max_tokens=6000
             )
 

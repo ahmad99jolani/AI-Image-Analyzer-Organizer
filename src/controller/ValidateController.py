@@ -1,7 +1,6 @@
-from helpers.config import Settings, get_settings
+from helpers.config import Settings
 from fastapi import UploadFile
 
-#AppCofig: Settings = get_settings()
 
 class ValidateData:
 

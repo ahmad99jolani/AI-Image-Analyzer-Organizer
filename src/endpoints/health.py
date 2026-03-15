@@ -7,7 +7,6 @@ pulse = APIRouter(
     prefix="/health",
     tags=["Health"]
 )
-#app_settings: Settings = get_settings()
 
 @pulse.get('/')
 async def health_check(app_settings:Settings = Depends(get_settings)):
